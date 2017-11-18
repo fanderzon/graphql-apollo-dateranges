@@ -1,0 +1,26 @@
+{
+  "name": "graphql-apollo-dateranges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanderzon/graphql-apollo-dateranges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanderzon/graphql-apollo-dateranges/issues"
+  },
+  "homepage": "https://github.com/fanderzon/graphql-apollo-dateranges#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.8.0"
+  }
+}
