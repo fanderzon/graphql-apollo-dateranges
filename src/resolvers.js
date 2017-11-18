@@ -1,5 +1,7 @@
 const data = require('./data');
-const DateType = require('./date');
+const {
+  GraphQLDateTime
+} = require('graphql-iso-date');
 
 const resolve = (tableName, where) => (root, args, context, field) => {
 	if (where && where.key && where.foreignKey && root[where.foreignKey]) {
@@ -25,5 +27,5 @@ module.exports = {
 	Author: {
 		posts: resolve('posts', { key: 'authorId', foreignKey: 'id'}),
 	},
-	Date: DateType,
+	Date: GraphQLDateTime,
 };
