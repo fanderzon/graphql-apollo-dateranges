@@ -11,13 +11,13 @@ type Author {
 type Post {
 	id: ID!
 	title: String
-	published: Date
+	published: DateTime
 	author: Author
 }
-scalar Date
+scalar DateTime
 input DateRange {
-    from: Date
-    to: Date
+    from: DateTime
+    to: DateTime
 }
 schema {
   query: Query

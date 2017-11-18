@@ -27,5 +27,5 @@ module.exports = {
 	Author: {
 		posts: resolve('posts', { key: 'authorId', foreignKey: 'id'}),
 	},
-	Date: GraphQLDateTime,
+	DateTime: GraphQLDateTime,
 };
